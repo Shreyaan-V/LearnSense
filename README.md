@@ -54,6 +54,7 @@ By making confusion visible, LearnSense enables timely and targeted intervention
 - Educators seeking early signals of learning breakdown
 
 ---
+Deployment: Prototype developed in Google AI Studio (local / cloud deployment planned)
 
 ## 📌 Hackathon Context
 
