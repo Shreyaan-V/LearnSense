@@ -1,65 +1,20 @@
-# LearnSense
-A tool that helps students identify what they don’t understand by revealing hidden confusion before they can articulate it.
-# LearnSense
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-LearnSense is a prototype learning assistant designed to identify **invisible confusion** in learners before it becomes frustration or disengagement.
+# Run and deploy your AI Studio app
 
-Instead of waiting for students to ask questions they cannot yet articulate, LearnSense analyzes what a learner *believes* they understand and surfaces likely conceptual gaps, misconceptions, and missing prerequisites.
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/temp/1
 
-## 🧠 Problem Statement
+## Run Locally
 
-Standardized instructional delivery assumes all learners process abstract concepts in the same way.  
-In reality, students often get stuck due to **hidden misunderstandings** they cannot clearly express — causing learning to stall silently.
+**Prerequisites:**  Node.js
 
----
 
-## 💡 Solution
-
-LearnSense provides:
-- Early detection of conceptual gaps
-- Alternative explanations for abstract topics
-- Clear next-step guidance for continued learning
-
-By making confusion visible, LearnSense enables timely and targeted intervention.
-
----
-
-## ⚙️ How It Works
-
-1. The learner enters:
-   - A topic they are studying
-   - What they believe they currently understand
-2. LearnSense analyzes the input
-3. The system returns:
-   - Likely misconceptions
-   - Missing prerequisite concepts
-   - A simplified explanation
-   - Suggested next learning steps
-
----
-
-## 🛠️ Tech Stack
-
-- HTML
-- CSS
-- JavaScript
-- Google AI Studio (for text analysis and reasoning)
-
----
-
-## 🚀 Use Case
-
-- Students learning abstract technical subjects
-- Self-learners stuck without knowing why
-- Educators seeking early signals of learning breakdown
-
----
-
-## 📌 Hackathon Context
-
-Built as part of **Vibathon / Buildfest 2.0**, focusing on adaptive learning and human-centered problem interpretation.
-
-This is a functional prototype intended to demonstrate concept and impact.
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

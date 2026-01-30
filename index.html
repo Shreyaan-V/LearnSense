@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnSense - Invisible Confusion Detector</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      /* Markdown Styles */
+      .prose h1 { font-size: 1.5em; font-weight: 700; margin-bottom: 0.5em; margin-top: 0.5em; color: #1e293b; }
+      .prose h2 { font-size: 1.25em; font-weight: 600; margin-bottom: 0.5em; margin-top: 0.5em; color: #334155; }
+      .prose h3 { font-size: 1.1em; font-weight: 600; margin-bottom: 0.5em; color: #475569; }
+      .prose ul { list-style-type: disc; padding-left: 1.5em; margin-bottom: 1em; }
+      .prose ol { list-style-type: decimal; padding-left: 1.5em; margin-bottom: 1em; }
+      .prose li { margin-bottom: 0.25em; }
+      .prose p { margin-bottom: 0.75em; line-height: 1.6; }
+      .prose strong { font-weight: 600; color: #0f172a; }
+      .prose code { background-color: #f1f5f9; padding: 0.2em 0.4em; border-radius: 0.25em; font-size: 0.9em; color: #db2777; font-family: monospace; }
+      .prose blockquote { border-left: 4px solid #e2e8f0; padding-left: 1em; color: #64748b; font-style: italic; }
+
+      /* Dark Mode Markdown Styles */
+      .dark .prose h1 { color: #f1f5f9; }
+      .dark .prose h2 { color: #e2e8f0; }
+      .dark .prose h3 { color: #cbd5e1; }
+      .dark .prose strong { color: #f8fafc; }
+      .dark .prose p, .dark .prose li { color: #cbd5e1; }
+      .dark .prose code { background-color: #334155; color: #f472b6; }
+      .dark .prose blockquote { border-left-color: #475569; color: #94a3b8; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "recharts": "https://esm.sh/recharts@^2.12.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "react-markdown": "https://esm.sh/react-markdown@9.0.1?bundle"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
